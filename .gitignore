@@ -1,27 +1,22 @@
-# Gradle
-.gradle/
-build/
-*/build/
-
-# Local configuration
-local.properties
-
 # Android Studio
-.idea/
+# ============
+*.apk
+*.aab
+*.ap_
+*.dex
 *.iml
-
-# NDK / C++ build
-.cxx/
-.externalNativeBuild/
-
-# Captures and logs
+.gradle/
+.idea/
+build/
+local.properties
 captures/
-*.log
+.cxx/
 
-# macOS system files
+# Python / Backend
+# =============
+__pycache__/
+*.pyc
+
+# IDE specific
+# ============
 .DS_Store
-
-# Windows system files
-Thumbs.db
-ehthumbs.db
-Desktop.ini
