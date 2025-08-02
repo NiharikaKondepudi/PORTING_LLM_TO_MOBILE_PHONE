@@ -1,0 +1,22 @@
+# Android Studio
+# ============
+*.apk
+*.aab
+*.ap_
+*.dex
+*.iml
+.gradle/
+.idea/
+build/
+local.properties
+captures/
+.cxx/
+
+# Python / Backend
+# =============
+__pycache__/
+*.pyc
+
+# IDE specific
+# ============
+.DS_Store
